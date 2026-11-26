@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Life Simulator</title>
+
+<link rel="stylesheet" href="estilo.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Geo:ital@0;1&family=Jersey+10&family=Jersey+15&family=Jersey+20&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  
+<script src="jazoscript.js"></script>
+
+</head>
+<body>
+   <header><button id="clearStorage" onclick="limpar()">Apagar</button>
+    
+    <!-- <a id="formulario" href="Form.html">Formulário</a> -->
+
+
+</header>
+    <div class="container">
+
+        <div class="divisoria"></div>
+
+
+            <div class="primeiraColuna"> 
+                
+                <div id="contador">
+                    <p>Dinheirinhos:</p>
+                <p id="money">0</p>
+                <p id="evento" style="color: yellow; font-size: 18px;"></p>
+                </div>
+                <div>
+                    <img src="assets/robo1.gif" alt="robo" class="imagem" id="robo">
+                </div>
+                <div id="caixa"></div>
+                
+            </div>
+
+            <div class="divisoria"></div>
+
+
+
+            <div class="segundaColuna">
+                <img  class="imagem" alt="Gear" id="gear" src="assets/gear3.3.png" onclick="clickNaEngrenagem()">
+            
+                <div class="containerDentroDoContainer">
+                    <div class="primeiraColunaDentroDoContainerDentroDoContainer">
+                        <button class="tarefas" id="tarefasUm" onclick="taUm()" disabled>???</button>
+                        <button class="tarefas" id="tarefasTres" onclick="taTres()" disabled>???</button>
+                        <button class="tarefas" id="tarefasCinco" onclick="taCinco()" disabled>???</button>
+                        <button class="tarefas" id="tarefasSete" onclick="taSete()" disabled>???</button>
+                    </div>
+                    <div class="divisoriaMenor"></div>
+                    <div class="segundaColunaDentroDoContainerDentroDoContainer">
+                        <button class="tarefas" id="tarefasDois" onclick="taDois()" disabled>???</button>
+                        <button class="tarefas" id="tarefasQuatro" onclick="taQuatro()" disabled>???</button>
+                        <button class="tarefas" id="tarefasSeis" onclick="taSeis()" disabled>???</button>
+                        <button class="tarefas" id="tarefasOito" onclick="taOito()" disabled>???</button>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="divisoria"></div>
+
+
+            <div class="terceiraColuna">
+                <button class="upgradeEscondido" id="upgradeUm" onclick="upUm()">???</button>
+                <button class="upgradeEscondido" id="upgradeDois" onclick="upDois()">???</button>
+                <button class="upgradeEscondido" id="upgradeTres" onclick="upTres()">???</button>
+                <button class="upgradeEscondido" id="upgradeQuatro" onclick="upQuatro()">???</button>
+                <button class="upgradeEscondido" id="upgradeCinco" onclick="upCinco()">???</button>
+
+                
+            </div>
+
+            <div class="divisoria"></div>
+
+
+    </div>
+
+
+
+    
+</body>
+</html>

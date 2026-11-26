@@ -1,0 +1,328 @@
+
+        header{
+            background-color: black;
+            height: 30px;
+            width: 100%;
+            position: fixed;
+        }
+
+        #clearStorage{
+            height: 30px;
+        }
+
+        #formulario{
+            color: white;
+        }
+
+        body{
+            margin: 0px;
+            padding: 0px;
+            /*overflow: hidden;*/
+            bottom: 0;
+        }    
+
+
+        p{
+            margin: 0;
+            font-family: "Jersey 10";
+            font-size: 6vmin;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        #caixa{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(151, 147, 147);
+        }
+
+
+        #contador{
+            color: white;
+            padding: 20px;
+            user-select: none;
+           background-color: rgb(28, 28, 39);
+           border-bottom: 2vh ridge rgb(185, 185, 196);
+           border-top: 2vh ridge rgb(185, 185, 196);
+        }
+
+        #money{
+            color: white;
+            font-size: 10vmin;
+            font-family: "Jersey 20";
+        }
+
+      
+
+        .container{
+                /*margin-left: 20px;*/
+                bottom: 0px;
+                height: 100vh;
+                padding: 0px;
+                margin: 0px;
+                display: flex;
+                background-color: rgb(38, 38, 38);
+                justify-content: center;
+                /*column-gap: 20px;
+                padding-left: 20px;
+                padding-right: 20px;*/
+                
+                
+        }
+
+        .imagem{
+            display: block;
+            margin: auto;
+            user-select: none;  
+
+            image-rendering: pixelated;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #gear{
+            
+            width:50%;
+            
+        }
+
+        .divisoriaMenor{
+            width: 6.25%;
+            background-image: url("assets/divisoria2.png");
+            image-rendering: pixelated;
+            background-size: 100%;
+        }
+
+        .divisoria{
+            width: 1.25%;
+            background-image: url("assets/divisoria2.png");
+            image-rendering: pixelated;
+            background-size: 100%;
+            
+        }
+
+        .primeiraColuna{
+            
+            padding-top: 70px;
+            width: 27.5%;
+            display: flexbox;
+            
+            
+            background-image: url("assets/fundoEsquerda.png");
+            background-color: black;
+            image-rendering: pixelated;
+            background-size: 100%;
+            overflow: hidden;
+        }
+
+        .segundaColuna{
+            padding-top: 5%;
+            width: 40%;
+            display: flexbox;
+            
+            background-image: url("assets/fundo.png");
+            background-color: black;
+            image-rendering: pixelated;
+            
+            background-size: 100%;
+            
+            
+            overflow: hidden;
+        }
+
+        .terceiraColuna{
+            padding-top: 60px;
+            width: 27.5%;
+            display: flexbox;
+            
+            background-image: url("assets/fundoUpgrades.png");
+            background-color: black;
+            image-rendering: pixelated;
+            background-size: 100%;
+            overflow: hidden;
+        }
+
+        .containerDentroDoContainer{
+            
+            padding: 0px;
+            display: flex;
+            
+            justify-content: center;
+            height: 100%;
+            
+            
+        }
+
+        .primeiraColunaDentroDoContainerDentroDoContainer{
+            
+            background-color: rgb(0, 0, 0);
+            
+            width: 100%;
+            height: 20px;
+            
+
+        }
+
+        .segundaColunaDentroDoContainerDentroDoContainer{
+            
+            background-color: black;
+            
+            width: 100%;
+            height: 20px;
+            
+        }
+
+            .tarefas{
+                font-family: "Jersey 10";
+                font-size: 1.2vw;
+                width: 100%;
+                height: 12vh;
+                background-color: rgb(164, 167, 179);
+                border: 1vmin ridge rgb(35, 37, 43);
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+            }
+
+            .barra{
+                
+                width: 90%;
+                margin-left: 5%;
+                height: 3vh;
+                user-select: none;
+                background-color: rgb(96, 94, 109);
+                border: 1px ridge rgb(35, 37, 43);
+                z-index: 2;
+                
+                display: flex;
+                
+            }
+
+            .progresso{
+                width: 1%;
+                height: 3vh;
+                user-select: none;
+                background-color: rgb(92, 192, 89);
+                
+                
+            }
+
+            .iconeTarefas{
+            height: 100%;
+            justify-content: center;
+            width: 20%;
+            margin-left: 0%;
+            display: flex;
+            align-items: center;
+            font-size: 2.7vmin;
+            border-right: 1px solid black;
+        }
+
+
+        
+
+        .internoTarefas{
+            padding: 0.5vmin;
+            padding-top: 4vh;
+            height: 100%;
+            width: 80%;
+            display: flex;
+            user-select: none;
+            flex-direction: column;
+        }
+
+
+            
+            .tarefas:active{
+                transform: translateY(10px);
+            }
+
+            .tarefas:disabled{
+                transform: translateY(0px);
+                background-color: rgb(52, 54, 65);
+                color: white;
+                border: 1vmin ridge rgb(214, 218, 230);
+            }
+            
+
+            
+
+        .upgrade{
+            margin-left: 5%;
+            width: 90%;
+            margin-bottom: 16px;
+            user-select: none;
+            
+            background-color: rgb(43, 41, 49);
+            border: 1.5vh ridge rgb(177, 175, 180);
+            height: 15.7%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-family: "Geo";
+            font-size: 3vmin;
+            
+            letter-spacing: -2px;
+            color: white;
+             
+        }
+
+        .upgrade:active{
+            transform: translateY(10px);
+        }
+
+        .upgrade:disabled{
+           
+
+            background-color: rgb(26, 23, 32);
+            border: 0.3vh ridge rgb(101, 100, 102);
+            transform: translateY(0px);
+            
+            color: rgb(100, 100, 100);
+        }
+
+        .upgradeEscondido{
+            margin-left: 5%;
+            width: 90%;
+            margin-bottom: 16px;
+            user-select: none;
+            pointer-events: none;
+            background-color: rgb(26, 23, 32);
+            border: 1.5vh ridge rgb(177, 175, 180);
+            height: 15.7%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-family: "Jersey 10";
+            font-size: 5vmin;
+            
+            letter-spacing: -1px;
+            color: white;
+            
+        }
+
+        .internoUpgrade{
+            width: 80%;
+        }
+
+        .iconeUpgrade{
+            height: 100%;
+            justify-content: center;
+            width: 20%;
+            margin-left: 0%;
+            display: flex;
+            align-items: center;
+            font-size: 4vmin;
+            letter-spacing: -3px;
+        }
+
+        .caixinhas{
+            width: 128px;
+            height: 20px;
+            margin-bottom: 50px;
+            background-color: black;
+            
+        }
